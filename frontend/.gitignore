@@ -1,0 +1,20 @@
+# dependencies
+/node_modules
+
+# build output
+/build
+
+# logs
+/log
+
+# IDE-specific files
+*.iml
+.idea/
+.vscode/
+
+# macOS-specific files
+.DS_Store
+
+# cache files
+*.log
+.npm-cache
