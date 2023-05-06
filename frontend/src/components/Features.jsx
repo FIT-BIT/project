@@ -5,7 +5,7 @@ const Features = () => {
     return (
         <div className="overflow-y-hidden">
             <div className="pb-16" >
-                {/* Code block starts */}
+               
                 <dh-component>
                     <div className="pt-16">
                         <div className="py-12 ">
@@ -19,8 +19,7 @@ const Features = () => {
                                             </div>
                                         </div>
                                         <h4 tabIndex={0} className="focus:outline-none text-lg font-medium leading-6 text-gray-800 text-center pt-5">
-                                            Ready to use<br />
-                                            components
+                                           Trainer at Home
                                         </h4>
                                     </div>
                                     <div tabIndex={0} aria-label="card 2" className="focus:outline-none flex flex-col items-center py-6 md:py-0 px-6 w-full sm:w-1/2 md:w-1/4">
