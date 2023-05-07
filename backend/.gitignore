@@ -1,0 +1,14 @@
+# Directories
+node_modules/
+coverage/
+.nyc_output/
+
+# Files
+.env
+.env.*
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
