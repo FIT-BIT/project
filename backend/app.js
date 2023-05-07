@@ -3,14 +3,13 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 
-
-
 const app = express();
 
 require('dotenv').config();
 
 //Routes
 const userRoute = require('./api/routes/UserManagement/user')
+const postRoute=require('./api/routes/Post/post')
 
 // morgan
 app.use(morgan('dev'))
@@ -23,7 +22,6 @@ mongoose.Promise = global.Promise;
 
 
 //Handeling cors error
-
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*')  //wildcard
     res.header('Access-Control-Allow-Headers', '*');
@@ -44,6 +42,7 @@ app.use(bodyParser.json())
 
 // Routes
 app.use('/user', userRoute)
+app.use('/post',postRoute)
 
 
 
