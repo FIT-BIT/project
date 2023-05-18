@@ -6,6 +6,8 @@ import Index from './page/Index';
 import Footer from './components/Footer';
 import About from './page/About';
 import Contact from './page/Contact';
+import Profile from './page/Profile';
+
 
 const App = () => {
   return (
@@ -16,6 +18,7 @@ const App = () => {
         <Route path='/auth/:login' element={<Auth />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact/>} />
+        <Route path='/profile' element={<Profile/>} />
       </Routes>
       <Footer />
     </>
