@@ -2,6 +2,8 @@ import React from 'react'
 import { Routes, Route ,Link} from 'react-router-dom'
 import UserInfo from './UserInfo'
 import Test from '../Test'
+import Profile from './Profile'
+import CreateRoutine from './CreateRoutine'
 const Dashboard = () => {
     return (
         <>
@@ -10,7 +12,7 @@ const Dashboard = () => {
                     class="fixed top-0 z-10 ml-[-100%] flex h-screen w-full flex-col justify-between border-r bg-white px-6 pb-3 transition duration-300 md:w-4/12 lg:ml-0 lg:w-[25%] xl:w-[20%] 2xl:w-[15%]  "
                 >
                     <div>
-                        <div class="-mx-6 px-6 py-4">
+                        <div class="-mx-6 px-6 ">
                             <a href="1" title="home">
                                 <img src="images/logo.svg" class="w-32" alt="tailus logo" />
                             </a>
@@ -173,7 +175,7 @@ const Dashboard = () => {
                 <div class="ml-auto mb-6 lg:w-[75%] xl:w-[80%] 2xl:w-[85%]">
                     <div class="sticky top-0 h-16 border-b bg-white   lg:py-2.5">
                         <div class="flex items-center justify-between space-x-4 px-6 2xl:container">
-                            <h5 hidden class="text-2xl font-medium text-gray-600 lg:block ">Dashboard</h5>
+                            <h5 hidden class="text-2xl z-50 font-medium text-gray-600 lg:block ">Dashboard</h5>
                             <button class="-mr-2 h-16 w-12 border-r lg:hidden  ">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -277,6 +279,9 @@ const Dashboard = () => {
                         >
                             <Routes>
                                 <Route path='/content' element={<UserInfo />} />
+                                <Route path='/createRoutine' element={<CreateRoutine />} />
+                                <Route path='/profile' element={<Profile />} />
+
                                 <Route path='/test' element={<Test/>}/>
                             </Routes>
                         </div>

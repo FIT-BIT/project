@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import About from './page/About';
 import Contact from './page/Contact';
 import Profile from './page/Profile';
-import CreateRoutine from './page/CreateRoutine';
+import CreateRoutine from './page/Admin/CreateRoutine';
 
 import Test from './page/Test';
 import Dashboard from './page/Admin/Dashboard';
