@@ -1,6 +1,27 @@
+import { Input } from '@mui/material'
 import React from 'react'
 
 const CreateRoutine = () => {
+
+  const exerciseRoutine = [
+    {
+        name : 'bicep curl',
+        imageLink : 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+    {
+        name : 'lunges',
+        imageLink : 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+    {
+        name : 'pushups',
+        imageLink : 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+    {
+        name : 'pull ups',
+        imageLink : 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+]
+
   return (
     <div>
 
@@ -27,31 +48,40 @@ const CreateRoutine = () => {
           </div>
 
           <div class="flex flex-col justify-start items-start bg-gray-50 dark:bg-gray-800 w-full p-6 md:p-14">
-              <div>
-                  <h1 class="text-2xl  dark:text-white dark:text-white font-semibold leading-6 text-gray-800">Order Summary</h1>
-              </div>
-              <div class="flex mt-7 flex-col items-end w-full space-y-6">
-                  <div class="flex justify-between w-full items-center">
-                      <p class="text-lg dark:text-gray-300 leading-4 text-gray-600">Total items</p>
-                      <p class="text-lg dark:text-gray-300 font-semibold leading-4 text-gray-600">20</p>
-                  </div>
-                  <div class="flex justify-between w-full items-center">
-                      <p class="text-lg dark:text-gray-300 leading-4 text-gray-600">Total Charges</p>
-                      <p class="text-lg dark:text-gray-300 font-semibold leading-4 text-gray-600">$2790</p>
-                  </div>
-                  <div class="flex justify-between w-full items-center">
-                      <p class="text-lg dark:text-gray-300 leading-4 text-gray-600">Shipping charges</p>
-                      <p class="text-lg dark:text-gray-300 font-semibold leading-4 text-gray-600">$90</p>
-                  </div>
-                  <div class="flex justify-between w-full items-center">
-                      <p class="text-lg dark:text-gray-300 leading-4 text-gray-600">Sub total</p>
-                      <p class="text-lg dark:text-gray-300 font-semibold leading-4 text-gray-600">$3520</p>
-                  </div>
-              </div>
-              <div class="flex justify-between w-full items-center mt-32">
-                  <p class="text-xl dark:text-white font-semibold leading-4 text-gray-800">Estimated Total</p>
-                  <p class="text-lg dark:text-white font-semibold leading-4 text-gray-800">$2900</p>
-              </div>
+              
+<div >
+    <div class="flex justify-between items-center mb-4">
+        <h3 class="text-xl font-bold leading-none text-gray-900 dark:text-white">Exercise</h3>
+        <h3 class="text-xl font-bold leading-none text-gray-900 dark:text-white">Reps</h3>
+   </div>
+   <div class="flow-root">
+        <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700">
+          {exerciseRoutine.map((item, index) => (
+            <li key={index} class="py-3 sm:py-4">
+                <div class="flex items-center space-x-4">
+                    <div class="flex-shrink-0">
+                        <img class="w-8 h-8 rounded-full" src={item.imageLink} alt="Neil image"/>
+                    </div>
+                    <div class="flex-1 min-w-20">
+                        <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                            {item.name}
+                        </p>
+                        <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+                            Exercise
+                        </p>
+                    </div>
+                    <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white ">
+                      <Input/>
+                    </div>
+                </div>
+            </li>
+            
+          ))}
+
+        </ul>
+   </div>
+</div>
+
           </div>
       </div>
     </div>
