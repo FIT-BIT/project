@@ -2,9 +2,10 @@ import { Link } from 'react-router-dom'
 import heroImage from '../assets/hero.jpg'
 import Features from '../components/Features'
 import About from '../components/About'
+import Wrapper from '../components/Wrapper'
 const Index = () => {
   return (
-    <>
+    <Wrapper>
       <div class="container px-6 py-16 mx-auto mt-14 sm:mt-40">
         <div class="items-center lg:flex">
           <div class="w-full lg:w-1/2">
@@ -23,7 +24,7 @@ const Index = () => {
       </div>
       <Features />
       <About />
-    </>
+    </Wrapper>
   )
 }
 export default Index

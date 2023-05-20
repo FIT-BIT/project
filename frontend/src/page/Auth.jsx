@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { useState } from 'react'
+import Wrapper from '../components/Wrapper'
 const Auth = () => {
     const [loginData, setLoginData] = useState({})
 
@@ -21,7 +22,7 @@ const Auth = () => {
     if (login === 'login') {
         return (
             <>
-                <section class=" ">
+                <Wrapper>
                     <div class="flex items-center justify-center h-full mt-32 mb-28 mx-auto max-w-7xl">
                         <div class="flex-1">
                             <div class="flex flex-wrap ">
@@ -113,14 +114,14 @@ const Auth = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </Wrapper>
             </>
         )
     }
     else {
         return (
             <>
-                <section class=" ">
+                <Wrapper>
                     <div class="flex items-center justify-center h-full mt-32 mb-28 mx-auto max-w-7xl">
                         <div class="flex-1">
                             <div class="flex flex-wrap ">
@@ -216,7 +217,7 @@ const Auth = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </Wrapper>
             </>
         )
     }
