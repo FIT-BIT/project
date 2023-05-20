@@ -9,7 +9,7 @@ function profile() {
         <div x-data="{ open: false }"
             class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
             <div class="p-4 flex flex-row items-center justify-between">
-                <a href="#"
+                <a href="1"
                     class="text-lg font-semibold tracking-widest uppercase rounded-lg focus:outline-none focus:shadow-outline">example
                     profile</a>
                 <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline">
@@ -73,25 +73,25 @@ function profile() {
                             <img class="h-16 w-16 rounded-full mx-auto"
                                 src="https://cdn.australianageingagenda.com.au/wp-content/uploads/2015/06/28085920/Phil-Beckett-2-e1435107243361.jpg"
                                 alt=""/>
-                            <a href="#" class="text-main-color">Kojstantin</a>
+                            <a href="1" class="text-main-color">Kojstantin</a>
                         </div>
                         <div class="text-center my-2">
                             <img class="h-16 w-16 rounded-full mx-auto"
                                 src="https://avatars2.githubusercontent.com/u/24622175?s=60&amp;v=4"
                                 alt=""/>
-                            <a href="#" class="text-main-color">James</a>
+                            <a href="1" class="text-main-color">James</a>
                         </div>
                         <div class="text-center my-2">
                             <img class="h-16 w-16 rounded-full mx-auto"
                                 src="https://lavinephotography.com.au/wp-content/uploads/2017/01/PROFILE-Photography-112.jpg"
                                 alt=""/>
-                            <a href="#" class="text-main-color">Natie</a>
+                            <a href="1" class="text-main-color">Natie</a>
                         </div>
                         <div class="text-center my-2">
                             <img class="h-16 w-16 rounded-full mx-auto"
                                 src="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/f04b52da-12f2-449f-b90c-5e4d5e2b1469_361x361.png"
                                 alt=""/>
-                            <a href="#" class="text-main-color">Casey</a>
+                            <a href="1" class="text-main-color">Casey</a>
                         </div>
                     </div>
                 </div>
@@ -197,8 +197,8 @@ function profile() {
                                 <span clas="text-green-500">
                                     <svg class="h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                         stroke="currentColor">
-                                        <path fill="#fff" d="M12 14l9-5-9-5-9 5 9 5z" />
-                                        <path fill="#fff"
+                                        <path fill="1fff" d="M12 14l9-5-9-5-9 5 9 5z" />
+                                        <path fill="1fff"
                                             d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
