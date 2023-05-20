@@ -1,9 +1,7 @@
 import React from 'react'
-import Navbar from './components/Navbar'
 import Auth from './page/Auth'
 import { Routes, Route } from 'react-router-dom';
 import Index from './page/Index';
-import Footer from './components/Footer';
 import About from './page/About';
 import Contact from './page/Contact';
 import Profile from './page/Profile';
