@@ -9,6 +9,7 @@ import CreateRoutine from './page/Admin/CreateRoutine';
 
 import Test from './page/Test';
 import Dashboard from './page/Admin/Dashboard';
+import TraineeDashboard from './page/TraineeAdmin/TraineeDashboard';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path='/createroutine' element={<CreateRoutine />} />
         <Route path='/dashboard/*' element={<Dashboard />} />
         <Route path='/test' element={<Test />} />
+        <Route path='/TraineeDashboard/*' element={<TraineeDashboard />} />
       </Routes>
       {/* <Footer /> */}
     </>
