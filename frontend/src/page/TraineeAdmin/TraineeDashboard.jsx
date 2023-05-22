@@ -4,6 +4,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import Test from '../Test'
 import Profile from '../Admin/Profile'
 import MyWorkouts from './MyWorkouts'
+import EditProfile from './EditProfile'
 // import CreateRoutine from './CreateRoutine'
 const TraineeDashboard = () => {
     return (
@@ -282,7 +283,7 @@ const TraineeDashboard = () => {
                                 <Route path='/workouts' element={<MyWorkouts />} />
                                 {/* <Route path='/createRoutine' element={<CreateRoutine />} /> */}
                                 <Route path='/profile' element={<Profile />} />
-
+                                <Route path='/editProfile' element={<EditProfile />} />
                                 <Route path='/test' element={<Test />} />
                             </Routes>
                         </div>
