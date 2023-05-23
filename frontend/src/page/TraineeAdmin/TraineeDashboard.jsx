@@ -205,12 +205,12 @@ const TraineeDashboard = () => {
         <div class="ml-auto mb-6 lg:w-[75%] xl:w-[80%] 2xl:w-[85%]">
           <div class="sticky top-0 h-16 border-b bg-white   lg:py-2.5">
             <div class="flex items-center justify-between space-x-4 px-6 2xl:container">
-              <h5
+              {/* <h5
                 hidden
                 class="text-2xl z-50 font-medium text-gray-600 lg:block "
               >
                 Dashboard
-              </h5>
+              </h5> */}
               <button class="-mr-2 h-16 w-12 border-r lg:hidden  ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
