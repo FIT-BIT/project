@@ -5,6 +5,7 @@ import Test from '../Test'
 import Profile from '../Admin/Profile'
 import MyWorkouts from './MyWorkouts'
 import EditProfile from './EditProfile'
+import WorkoutExercises from './WorkoutExercises'
 // import CreateRoutine from './CreateRoutine'
 const TraineeDashboard = () => {
     return (
@@ -285,6 +286,7 @@ const TraineeDashboard = () => {
                                 <Route path='/profile' element={<Profile />} />
                                 <Route path='/editProfile' element={<EditProfile />} />
                                 <Route path='/test' element={<Test />} />
+                                <Route path='/workoutExercises' element={<WorkoutExercises />} />
                             </Routes>
                         </div>
                     </div>
