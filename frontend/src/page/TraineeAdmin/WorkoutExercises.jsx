@@ -103,9 +103,10 @@ const UserInfo = () => {
         style={{
           textAlign: "right",
           border: "1px solid green",
-          fontSize: "30px",
+          fontSize: "25px",
           padding: "0px 10px",
           marginBottom: '20px',
+          
         }}
         href="http://127.0.0.1:8000/exercise"
       >
@@ -116,18 +117,18 @@ const UserInfo = () => {
           <tr>
             <th scope="col" class="px-6 py-4 font-medium text-gray-900"></th>
             <th
-              style={{ fontSize: "30px" }}
+              style={{ fontSize: "25px" }}
               scope="col"
               class="px-6 py-4 font-medium text-gray-900"
             >
               Exercise
             </th>
             <th
-              style={{ fontSize: "30px" }}
+              style={{ fontSize: "25px" }}
               scope="col"
               class="px-6 py-4 font-medium text-gray-900"
             >
-              Repitions
+              Repititions
             </th>
 
             <th scope="col" class="px-6 py-4 font-medium text-gray-900"></th>
@@ -148,13 +149,13 @@ const UserInfo = () => {
                 </div>
               </th>
 
-              <td class="px-6 py-4" style={{ fontSize: "30px" }}>
+              <td class="px-6 py-4" style={{ fontSize: "25px" }}>
                 {item.name}
               </td>
               <td class="px-6 py-4">
                 <span class="inline-flex items-center gap-1 rounded-full bg-green-50 px-2 py-1 text-xs font-semibold text-green-600">
                   <span class="h-1.5 w-1.5 rounded-full bg-green-600"></span>
-                  <p style={{ fontSize: "30px" }}>{item.status}</p>
+                  <p style={{ fontSize: "25px" }}>{item.status}</p>
                 </span>
               </td>
             </tr>
