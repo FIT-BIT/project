@@ -7,21 +7,21 @@ const MyWorkouts = () => {
     const workoutRoutines = [
         {
             avatar:
-                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+                "https://i.ytimg.com/vi/C8DbCZGj5KQ/maxresdefault.jpg",
             description: "Full Body Workout",
             email: "Arpit@gmail.com",
             instructor: "Gagan",
         },
         {
             avatar:
-                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+                "https://www.metropolisindia.com/blog/wp-content/uploads/2023/01/Slipped-Disc-Exercises-for-Pain-Relief-and-Treatment.jpg",
             description: "Slip Disc Workout",
             email: "Naman@gmail.com",
             instructor: "Gagan",
         },
         {
             avatar:
-                "https://new-cdn.mamamia.com.au/mamamia-pwa.appspot.com/cms_images/variations/1200x800-879620303253.jpg",
+                "https://www.nourishmovelove.com/wp-content/uploads/2023/01/arm-toning-exercises-bicep-flex-scaled.jpg",
             description: "Arms Workout",
             email: "Amisha@gmail.com",
             instructor: "Navya",
@@ -38,9 +38,12 @@ const MyWorkouts = () => {
 
                         <article class="overflow-hidden rounded-lg shadow-lg">
 
-                            <a href="#">
-                                <img alt="Placeholder" class="block h-auto w-full" src="https://new-cdn.mamamia.com.au/mamamia-pwa.appspot.com/cms_images/variations/1200x800-879620303253.jpg" />
-                            </a>
+                        <Link
+    to={"/TraineeDashboard/workoutExercises"}
+    class="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600 "
+  >
+                                <img style={{ height: 200, width: 400 }} alt="Placeholder" class="block h-auto w-full" src={item.avatar} />
+                            </Link>
 
                             <header class="flex items-center justify-between leading-tight p-2 md:p-4">
                                 <h1 class="text-lg">
