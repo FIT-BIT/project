@@ -2,7 +2,7 @@ import React from 'react'
 import { Routes, Route ,Link} from 'react-router-dom'
 import UserInfo from './UserInfo'
 import Test from '../Test'
-import Profile from './Profile'
+import TraineeProfile from './TraineeProfile'
 import CreateRoutine from './CreateRoutine'
 const Dashboard = () => {
     return (
@@ -20,12 +20,12 @@ const Dashboard = () => {
 
                         <div class="mt-8 text-center">
                             <img
-                                src="https://www.bizasialive.com/wp-content/uploads/2022/03/Shah-Rukh-Khan-SRK-2-1200x.jpg"
+                                src="https://cdn-icons-png.flaticon.com/512/146/146007.png"
                                 alt=""
                                 class="m-auto h-10 w-10 rounded-full object-cover lg:h-28 lg:w-28"
                             />
-                            <h5 class="mt-4 hidden text-xl font-semibold text-gray-600 lg:block ">Cynthia J. Watts</h5>
-                            <span class="hidden text-gray-400 lg:block">Admin</span>
+                            <h5 class="mt-4 hidden text-xl font-semibold text-gray-600 lg:block ">Naman Kumar</h5>
+                            <span class="hidden text-gray-400 lg:block">Trainer</span>
                         </div>
 
                         <ul class="mt-8 space-y-2 tracking-wide">
@@ -74,10 +74,10 @@ const Dashboard = () => {
                                             d="M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z"
                                         />
                                     </svg>
-                                    <span class="group-hover:text-gray-700 ">Users</span>
+                                    <span class="group-hover:text-gray-700 ">Trainees</span>
                                 </Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a
                                     href="1"
                                     class="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600 "
@@ -101,8 +101,8 @@ const Dashboard = () => {
                                     </svg>
                                     <span class="group-hover:text-gray-700 ">Reports</span>
                                 </a>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <Link to={'/dashboard/test'}
                                     class="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600 "
                                 >
@@ -123,8 +123,8 @@ const Dashboard = () => {
                                     </svg>
                                     <span class="group-hover:text-gray-700 ">Other data</span>
                                 </Link>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <a
                                     href="1"
                                     class="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600 "
@@ -148,7 +148,7 @@ const Dashboard = () => {
                                     </svg>
                                     <span class="group-hover:text-gray-700 ">Finance</span>
                                 </a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
 
@@ -280,7 +280,7 @@ const Dashboard = () => {
                             <Routes>
                                 <Route path='/content' element={<UserInfo />} />
                                 <Route path='/createRoutine' element={<CreateRoutine />} />
-                                <Route path='/profile' element={<Profile />} />
+                                <Route path='/profile' element={<TraineeProfile />} />
 
                                 <Route path='/test' element={<Test/>}/>
                             </Routes>
