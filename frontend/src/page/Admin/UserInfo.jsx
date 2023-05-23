@@ -44,21 +44,21 @@ const UserInfo = () => {
         <thead class="bg-gray-50">
           <tr>
             <th
-              style={{ fontSize: "30px" }}
+              style={{ fontSize: "20px" }}
               scope="col"
               class="px-6 py-4 font-medium text-gray-900"
             >
               Trainees
             </th>
             <th
-              style={{ fontSize: "30px" }}
+              style={{ fontSize: "20px" }}
               scope="col"
               class="px-6 py-4 font-medium text-gray-900"
             >
               Name
             </th>
             <th
-              style={{ fontSize: "30px" }}
+              style={{ fontSize: "20px" }}
               scope="col"
               class="px-6 py-4 font-medium text-gray-900"
             >
@@ -85,13 +85,13 @@ const UserInfo = () => {
                 </div> */}
               </th>
 
-              <td style={{ fontSize: "30px" }} class="px-6 py-4">
+              <td style={{ fontSize: "20px" }} class="px-6 py-4">
                 {item.name}
               </td>
               <td class="px-6 py-4">
                 <div class="flex gap-2">
                   <span
-                    style={{ fontSize: "30px" }}
+                    style={{ fontSize: "20px" }}
                     class="inline-flex items-center gap-1 rounded-full bg-blue-50 px-2 py-1 text-xs font-semibold text-blue-600"
                   >
                     {item.email}
