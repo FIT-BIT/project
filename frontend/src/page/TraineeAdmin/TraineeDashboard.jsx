@@ -26,7 +26,7 @@ const TraineeDashboard = () => {
                 class="m-auto h-10 w-10 rounded-full object-cover lg:h-28 lg:w-28"
               />
               <h5 class="mt-4 hidden text-xl font-semibold text-gray-600 lg:block ">
-                Amisha
+                Amisha Garg
               </h5>
               <span class="hidden text-gray-400 lg:block">Trainee</span>
             </div>

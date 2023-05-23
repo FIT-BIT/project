@@ -21,13 +21,13 @@ const Profile = () => {
             style={{ fontSize: "30px", marginBottom: "10px" }}
             class="text-xl text-slate-900 relative font-bold leading-6"
           >
-            Amisha
+            Amisha Garg
           </h3>
           <p
             style={{ fontSize: "20px", marginBottom: "10px" }}
             class="text-sm text-gray-600"
           >
-            +919465503185
+            +919888888888
           </p>
         </div>
         <div

@@ -7,7 +7,7 @@ const UserInfo = () => {
   const trainees = [
     {
       avatar: "https://cdn-icons-png.flaticon.com/512/146/146005.png",
-      name: "Amisha",
+      name: "Amisha Garg",
       email: "28 April, 2023",
       status: "Active",
     },

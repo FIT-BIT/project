@@ -15,9 +15,9 @@ const Profile = () => {
         </div>
         <div class="">
           <h3 style={{ fontSize: "30px", marginBottom: '10px' }} class="text-xl text-slate-900 relative font-bold leading-6">
-            Amisha
+            Amisha Garg
           </h3>
-          <p style={{ fontSize: "20px", marginBottom: '10px' }} class="text-sm text-gray-600">+919465503185</p>
+          <p style={{ fontSize: "20px", marginBottom: '10px' }} class="text-sm text-gray-600">+919888888888</p>
         </div>
         <div style={{ fontSize: "20px", marginBottom: '30px' }} class="flex gap-3 flex-wrap">
           <span style={{ fontSize: "20px" }} class="rounded-sm bg-yellow-100 px-3 py-1 text-xs font-medium text-yellow-800">
