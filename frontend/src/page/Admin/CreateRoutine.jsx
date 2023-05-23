@@ -27,7 +27,7 @@ const CreateRoutine = () => {
 
   return (
     <div>
-      <div class="flex sm:w-9/12  flex-col lg:flex-row justify-center items-center lg:space-x-10 2xl:space-x-36 space-y-12 lg:space-y-0 lg:w-[75rem] pt-64 sm:pt-0">
+      <div class="flex sm:w-9/12  flex-col lg:flex-row justify-center items-center lg:space-x-10 2xl:space-x-36 space-y-12 lg:space-y-0 lg:w-full pt-64 sm:pt-0">
         <div class="flex w-full flex-col justify-start items-start">
           <div class="">
             <p class="text-3xl dark:text-white lg:text-4xl font-semibold leading-7 lg:leading-9 text-gray-800">
