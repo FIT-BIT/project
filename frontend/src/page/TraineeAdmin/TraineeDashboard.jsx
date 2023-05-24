@@ -7,6 +7,7 @@ import MyWorkouts from "./MyWorkouts";
 import EditProfile from "./EditProfile";
 import WorkoutExercises from "./WorkoutExercises";
 import ProgressReport from "./ProgressReport";
+import AssessmentIcon from '@mui/icons-material/Assessment';
 // import CreateRoutine from './CreateRoutine'
 const TraineeDashboard = () => {
   return (
@@ -108,31 +109,15 @@ const TraineeDashboard = () => {
                   <span class="group-hover:text-gray-700 ">My Workouts</span>
                 </Link>
               </li>
-              {/* <li>
-                                <a
-                                    href="1"
-                                    class="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600 "
-                                >
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        class="h-5 w-5"
-                                        viewBox="0 0 20 20"
-                                        fill="currentColor"
-                                    >
-                                        <path
-                                            class="fill-current text-gray-600 group-hover:text-cyan-600 "
-                                            fill-rule="evenodd"
-                                            d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z"
-                                            clip-rule="evenodd"
-                                        />
-                                        <path
-                                            class="fill-current text-gray-300 group-hover:text-cyan-300"
-                                            d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"
-                                        />
-                                    </svg>
-                                    <span class="group-hover:text-gray-700 ">Reports</span>
-                                </a>
-                            </li> */}
+              <li>
+            <Link
+                  to={"/TraineeDashboard/report_analysis"}
+                  class="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600 "
+                >
+                  <AssessmentIcon/>
+                  <span class="group-hover:text-gray-700 ">Analysis</span>
+                </Link>               
+            </li> 
               {/* <li>
                                 <Link to={'/dashboard/test'}
                                     class="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600 "
@@ -308,7 +293,7 @@ const TraineeDashboard = () => {
           </div>
 
           <div class="px-6 pt-6 2xl:container">
-            <div class="flex h-[210vh] items-center justify-center rounded-xl border-2 border-dashed border-gray-300 ">
+            <div class="flex h-[80vh] items-center justify-center rounded-xl border-2 border-dashed border-gray-300 ">
               <Routes>
                 <Route path="/workouts" element={<MyWorkouts />} />
                 {/* <Route path='/createRoutine' element={<CreateRoutine />} /> */}
